@@ -2,7 +2,7 @@
   margin-top: 80px;
 }
 
-.nav {
+.nav__menu {
   display: flex;
   justify-content: space-around;
   position: fixed;
