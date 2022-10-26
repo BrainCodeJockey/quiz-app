@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*::before ::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-top: 100px;
+  background-color: var(--basiccolor);
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+:root {
+  --basiccolor: #2e3532;
+  --primary-color: #8b2635;
+  --secondary-color: #e0e2db;
+  --text-color: #2e3532;
+}
