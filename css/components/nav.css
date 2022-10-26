@@ -1,0 +1,21 @@
+.navbar {
+  margin-top: 80px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  z-index: 10;
+}
+
+.nav__item {
+  height: 50px;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  top: -10px;
+}

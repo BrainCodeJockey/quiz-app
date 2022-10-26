@@ -1,0 +1,28 @@
+.profil {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 10%;
+}
+
+.profil__img {
+  max-width: 50px;
+  max-width: 50px;
+}
+
+.profil__name {
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  margin: 20px 10%;
+}
